@@ -47,15 +47,15 @@ $config['csrf']['enabled'] = true;
  *  Two-factor confirmation for user actions
  *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-e-mail-confirmations
  */
-$config['twofactor']['enabled'] = true;
-$config['twofactor']['options']['details'] = true;
-$config['twofactor']['options']['withdraw'] = true;
-$config['twofactor']['options']['changepw'] = true;
+$config['twofactor']['enabled'] = false;
+$config['twofactor']['options']['details'] = false;
+$config['twofactor']['options']['withdraw'] = false;
+$config['twofactor']['options']['changepw'] = false;
 
 /**
  * Lock account after X
  *  Lock accounts after X invalid logins or pins
  *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-lock-accounts-after-failed-logins
  **/
-$config['maxfailed']['login'] = 3;
-$config['maxfailed']['pin'] = 3;
+$config['maxfailed']['login'] = 30;
+$config['maxfailed']['pin'] = 30;

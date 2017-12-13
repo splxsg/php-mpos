@@ -216,7 +216,7 @@ $config['archive']['maxage'] = 60 * 24;
  *  Fees applied to users
  *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-pool-fees
  */
-$config['fees'] = 0;
+$config['fees'] = 1;
 
 /**
  * PPLNS
@@ -282,7 +282,7 @@ $config['memcache']['sasl']['password'] = '';
  *  Cookie configuration details
  *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-cookies
  **/
-$config['cookie']['duration'] = '1440';
+$config['cookie']['duration'] = '3600';
 $config['cookie']['domain'] = '';
 $config['cookie']['path'] = '/';
 $config['cookie']['httponly'] = true;
