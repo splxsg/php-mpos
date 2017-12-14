@@ -1,5 +1,5 @@
 <?php
-$defflip = (!cfip()) ? exit(header('HTTP/1.1 401 Unauthorized')) : 1;
+//$defflip = (!cfip()) ? exit(header('HTTP/1.1 401 Unauthorized')) : 1;
 
 /**
  * Helper class for our API
